@@ -1,0 +1,17 @@
+{
+ "fige_le": "2026-10-07T22:15:25.262Z",
+ "methode": "Cadence moyenne observée depuis le début du projet (pauses et attentes comprises), tâches restantes enchaînées dans l'ordre du plan, celles qui attendent l'utilisateur après les autres. Figée une fois pour toutes. Plans 4 et 5 exclus (pas encore de plan détaillé).",
+ "minutes_par_tache": 60,
+ "echantillon": 48,
+ "fins_prevues": {
+  "P3-T10": "2026-10-07T22:30:21.938Z",
+  "P3-T11": "2026-10-07T23:30:08.646Z",
+  "P3-T1": "2026-10-08T00:29:55.353Z",
+  "P3-T12": "2026-10-08T01:29:42.061Z",
+  "P3-T13": "2026-10-08T02:29:28.768Z",
+  "P3-T14": "2026-10-08T03:29:15.476Z",
+  "P3-T15": "2026-10-08T04:29:02.183Z",
+  "P3-RF": "2026-10-08T05:28:48.891Z",
+  "P3-T16": "2026-10-08T06:28:35.598Z"
+ }
+}

@@ -1,0 +1,692 @@
+{
+ "projet": "Action !",
+ "sources": {
+  "plans": "docs/superpowers/plans/",
+  "registres": ".superpowers/sdd/<plan>/progress.md"
+ },
+ "phases": [
+  {
+   "id": "P1",
+   "titre": "Plan 1 — Fondations",
+   "sdd": "2026-10-05-plan-1-fondations"
+  },
+  {
+   "id": "P2",
+   "titre": "Plan 2 — App iPhone (Expo Go)",
+   "sdd": "2026-10-06-plan-2-app-iphone"
+  },
+  {
+   "id": "P3",
+   "titre": "Plan 3 — Complément Excel",
+   "sdd": "2026-10-07-plan-3-complement-excel"
+  },
+  {
+   "id": "P4",
+   "titre": "Plan 4 — PDF"
+  },
+  {
+   "id": "P5",
+   "titre": "Plan 5 — iPad et finitions"
+  }
+ ],
+ "taches": [
+  {
+   "id": "P1-T1",
+   "phase": "P1",
+   "tache": "1",
+   "titre": "Socle monorepo et mise à jour du cahier des charges",
+   "dependances": []
+  },
+  {
+   "id": "P1-T2",
+   "phase": "P1",
+   "tache": "2",
+   "titre": "Types du domaine et modèles de projet",
+   "dependances": [
+    "P1-T1"
+   ]
+  },
+  {
+   "id": "P1-T3",
+   "phase": "P1",
+   "tache": "3",
+   "titre": "Normalisation du texte et correspondance approchée des listes",
+   "dependances": [
+    "P1-T1"
+   ]
+  },
+  {
+   "id": "P1-T4",
+   "phase": "P1",
+   "tache": "4",
+   "titre": "Lecture des échéances en français",
+   "dependances": [
+    "P1-T3"
+   ]
+  },
+  {
+   "id": "P1-T5",
+   "phase": "P1",
+   "tache": "5",
+   "titre": "Analyse de la dictée",
+   "dependances": [
+    "P1-T2",
+    "P1-T3",
+    "P1-T4"
+   ]
+  },
+  {
+   "id": "P1-T6",
+   "phase": "P1",
+   "tache": "6",
+   "titre": "Budget de largeur Excel A4 portrait",
+   "dependances": [
+    "P1-T2"
+   ]
+  },
+  {
+   "id": "P1-T7",
+   "phase": "P1",
+   "tache": "7",
+   "titre": "Schéma de base, règles d'accès et banc de test",
+   "dependances": [
+    "P1-T1"
+   ]
+  },
+  {
+   "id": "P1-T8",
+   "phase": "P1",
+   "tache": "8",
+   "titre": "Fonctions serveur apply_changes et pull_changes",
+   "dependances": [
+    "P1-T2",
+    "P1-T7"
+   ]
+  },
+  {
+   "id": "P1-T9",
+   "phase": "P1",
+   "tache": "9",
+   "titre": "Moteur de synchro client (stockage local, réconciliation) et test de bout en bout",
+   "dependances": [
+    "P1-T2",
+    "P1-T8"
+   ]
+  },
+  {
+   "id": "P1-T10",
+   "phase": "P1",
+   "tache": "10",
+   "titre": "Transport Supabase, intégration continue et réveil quotidien",
+   "dependances": [
+    "P1-T8",
+    "P1-T9"
+   ]
+  },
+  {
+   "id": "P1-RF",
+   "phase": "P1",
+   "tache": "final",
+   "titre": "Revue finale et vague de corrections du plan 1",
+   "dependances": [
+    "P1-T5",
+    "P1-T6",
+    "P1-T10"
+   ]
+  },
+  {
+   "id": "P2-T1",
+   "phase": "P2",
+   "tache": "1",
+   "titre": "Application locale des changements et suite de conformité LocalStore",
+   "dependances": [
+    "P1-T9"
+   ]
+  },
+  {
+   "id": "P2-T2",
+   "phase": "P2",
+   "tache": "2",
+   "titre": "Aides d'édition horodatées (nextEditTs)",
+   "dependances": [
+    "P1-T9",
+    "P2-T1"
+   ]
+  },
+  {
+   "id": "P2-T3",
+   "phase": "P2",
+   "tache": "3",
+   "titre": "Valeurs de listes : suggestions, nouvelles valeurs, statut à faire, contexte de dictée",
+   "dependances": [
+    "P1-T2",
+    "P1-T3",
+    "P1-T5",
+    "P2-T1"
+   ]
+  },
+  {
+   "id": "P2-T4",
+   "phase": "P2",
+   "tache": "4",
+   "titre": "Aides de capture : nouvelle action et photo, dictée appliquée, champs mémorisés",
+   "dependances": [
+    "P1-T5",
+    "P1-T9",
+    "P2-T1",
+    "P2-T2"
+   ]
+  },
+  {
+   "id": "P2-T5",
+   "phase": "P2",
+   "tache": "5",
+   "titre": "Géométrie des annotations (coordonnées, formes, zoom)",
+   "dependances": [
+    "P1-T2"
+   ]
+  },
+  {
+   "id": "P2-T6",
+   "phase": "P2",
+   "tache": "6",
+   "titre": "Logique de la liste d'actions : sections, filtres, recherche",
+   "dependances": [
+    "P1-T3",
+    "P2-T1",
+    "P2-T3"
+   ]
+  },
+  {
+   "id": "P2-T7",
+   "phase": "P2",
+   "tache": "7",
+   "titre": "Aides d'interface en français : dates, corbeille, configuration, connexion",
+   "dependances": [
+    "P1-T4"
+   ]
+  },
+  {
+   "id": "P2-T8",
+   "phase": "P2",
+   "tache": "8",
+   "titre": "Moteur de synchro : relance, envois par 50, bumpPdfEdition",
+   "dependances": [
+    "P1-T7",
+    "P1-T9",
+    "P1-T10"
+   ]
+  },
+  {
+   "id": "P2-T9",
+   "phase": "P2",
+   "tache": "9",
+   "titre": "Planificateur de synchro et libellé d'état",
+   "dependances": [
+    "P1-T9",
+    "P2-T8"
+   ]
+  },
+  {
+   "id": "P2-T10",
+   "phase": "P2",
+   "tache": "10",
+   "titre": "Synchro des photos : file d'envoi et téléchargements",
+   "dependances": [
+    "P1-T9",
+    "P2-T1",
+    "P2-T2"
+   ]
+  },
+  {
+   "id": "P2-T11",
+   "phase": "P2",
+   "tache": "11",
+   "titre": "Migration Supabase : stockage privé des photos, règles d'accès, temps réel",
+   "dependances": [
+    "P1-T7"
+   ]
+  },
+  {
+   "id": "P2-T12",
+   "phase": "P2",
+   "tache": "12",
+   "titre": "Stockage SQLite conforme à LocalStore",
+   "dependances": [
+    "P2-T1"
+   ]
+  },
+  {
+   "id": "P2-T13",
+   "phase": "P2",
+   "tache": "13",
+   "titre": "SQLite : lectures des écrans, réglages, fichiers photo, purge de la corbeille",
+   "dependances": [
+    "P2-T10",
+    "P2-T12"
+   ]
+  },
+  {
+   "id": "P2-T14",
+   "phase": "P2",
+   "tache": "14",
+   "titre": "Squelette de l'app Expo SDK 57",
+   "dependances": [
+    "P2-T7"
+   ]
+  },
+  {
+   "id": "P2-T15",
+   "phase": "P2",
+   "tache": "15",
+   "titre": "Services de l'app : SQLite, Supabase, synchro, photos, temps réel",
+   "dependances": [
+    "P2-T4",
+    "P2-T7",
+    "P2-T8",
+    "P2-T9",
+    "P2-T10",
+    "P2-T12",
+    "P2-T13"
+   ]
+  },
+  {
+   "id": "P2-T16",
+   "phase": "P2",
+   "tache": "16",
+   "titre": "Connexion et routage au démarrage",
+   "dependances": [
+    "P2-T7",
+    "P2-T14",
+    "P2-T15"
+   ]
+  },
+  {
+   "id": "P2-T17",
+   "phase": "P2",
+   "tache": "17",
+   "titre": "Composants d'interface partagés",
+   "dependances": [
+    "P1-T4",
+    "P2-T7",
+    "P2-T14"
+   ]
+  },
+  {
+   "id": "P2-T18",
+   "phase": "P2",
+   "tache": "18",
+   "titre": "Photos : stockage de capture, rendu annoté, calque d'annotation",
+   "dependances": [
+    "P2-T2",
+    "P2-T4",
+    "P2-T5",
+    "P2-T15"
+   ]
+  },
+  {
+   "id": "P2-T19",
+   "phase": "P2",
+   "tache": "19",
+   "titre": "Écran de capture (rafale, dictée analysée en direct)",
+   "dependances": [
+    "P2-T3",
+    "P2-T4",
+    "P2-T14",
+    "P2-T15",
+    "P2-T17",
+    "P2-T18"
+   ]
+  },
+  {
+   "id": "P2-T20",
+   "phase": "P2",
+   "tache": "20",
+   "titre": "Écran d'annotation",
+   "dependances": [
+    "P2-T5",
+    "P2-T15",
+    "P2-T17",
+    "P2-T18"
+   ]
+  },
+  {
+   "id": "P2-T21",
+   "phase": "P2",
+   "tache": "21",
+   "titre": "Écran liste des actions",
+   "dependances": [
+    "P2-T3",
+    "P2-T6",
+    "P2-T15",
+    "P2-T17"
+   ]
+  },
+  {
+   "id": "P2-T22",
+   "phase": "P2",
+   "tache": "22",
+   "titre": "Fiche action",
+   "dependances": [
+    "P2-T6",
+    "P2-T14",
+    "P2-T15",
+    "P2-T17"
+   ]
+  },
+  {
+   "id": "P2-T23",
+   "phase": "P2",
+   "tache": "23",
+   "titre": "Projets : liste, changement, création en deux gestes",
+   "dependances": [
+    "P1-T2",
+    "P1-T9",
+    "P2-T14",
+    "P2-T15",
+    "P2-T17"
+   ]
+  },
+  {
+   "id": "P2-T24",
+   "phase": "P2",
+   "tache": "24",
+   "titre": "Réglages du projet et corbeille",
+   "dependances": [
+    "P1-T6",
+    "P2-T7",
+    "P2-T15",
+    "P2-T17"
+   ]
+  },
+  {
+   "id": "P2-RF",
+   "phase": "P2",
+   "tache": "final",
+   "titre": "Revue finale et vague de corrections du plan 2",
+   "dependances": [
+    "P2-T16",
+    "P2-T19",
+    "P2-T20",
+    "P2-T21",
+    "P2-T22",
+    "P2-T23",
+    "P2-T24"
+   ]
+  },
+  {
+   "id": "P2-T25",
+   "phase": "P2",
+   "tache": "25",
+   "titre": "Mise en service Supabase (avec l'utilisateur)",
+   "dependances": [
+    "P1-T7",
+    "P2-T11"
+   ],
+   "manuel": {
+    "statut": "fait",
+    "fin_commit": "bfa8733",
+    "note": "Serveur en ligne (projet ibyigjqviaoaqnjjnxsp), constaté dans les décisions du plan 3 ; partie code : commits e48ead8..12d061a"
+   }
+  },
+  {
+   "id": "P2-X1",
+   "phase": "P2",
+   "tache": "hors plan",
+   "titre": "Connexion par e-mail et mot de passe (au lieu du code)",
+   "dependances": [
+    "P2-T16",
+    "P2-T25"
+   ],
+   "registre": "^- Auth change \\(password sign-in\\): complete \\(commits (\\w+)\\.\\.(\\w+)",
+   "brief": "auth-change-brief.md",
+   "rapport": "auth-change-report.md"
+  },
+  {
+   "id": "P2-X2",
+   "phase": "P2",
+   "tache": "hors plan",
+   "titre": "Bouton OK unique sous la photo et menu projet",
+   "dependances": [
+    "P2-T19",
+    "P2-T23"
+   ],
+   "registre": "^- OK\\+Menu change: complete \\(commits (\\w+)\\.\\.(\\w+)",
+   "brief": "ok-menu-brief.md",
+   "rapport": "ok-menu-report.md"
+  },
+  {
+   "id": "P2-T26",
+   "phase": "P2",
+   "tache": "26",
+   "titre": "Publication sur Expo Go et vérification iPhone (avec l'utilisateur)",
+   "dependances": [
+    "P2-RF",
+    "P2-T25"
+   ],
+   "manuel": {
+    "statut": "fait",
+    "fin_commit": "28011f0",
+    "note": "App publiée (EAS Update), constaté dans les décisions du plan 3 ; retours iPhone corrigés (b4ae4f9)"
+   }
+  },
+  {
+   "id": "P3-T1",
+   "phase": "P3",
+   "tache": "1",
+   "titre": "Compte GitHub et complément d'essai sur GitHub Pages (avec l'utilisateur)",
+   "dependances": [
+    "P2-T25"
+   ],
+   "manuel": {
+    "statut": "bloqué",
+    "depuis": "2026-10-07T17:06:00+02:00",
+    "note": "Attend l'utilisateur : compte GitHub et GitHub CLI (étape 1), puis essai dans Excel"
+   }
+  },
+  {
+   "id": "P3-T2",
+   "phase": "P3",
+   "tache": "2",
+   "titre": "Paquet excel-sync : socle et unités (cm, colonnes, dates Excel)",
+   "dependances": []
+  },
+  {
+   "id": "P3-T3",
+   "phase": "P3",
+   "tache": "3",
+   "titre": "Modèle de colonnes et projection des lignes",
+   "dependances": [
+    "P1-T6",
+    "P2-T3",
+    "P2-T7",
+    "P3-T2"
+   ]
+  },
+  {
+   "id": "P3-T4",
+   "phase": "P3",
+   "tache": "4",
+   "titre": "Instantané de dernière synchro",
+   "dependances": [
+    "P3-T3"
+   ]
+  },
+  {
+   "id": "P3-T5",
+   "phase": "P3",
+   "tache": "5",
+   "titre": "Capture : écarts classeur ↔ instantané en changements",
+   "dependances": [
+    "P2-T2",
+    "P2-T3",
+    "P2-T4",
+    "P3-T2",
+    "P3-T3",
+    "P3-T4"
+   ]
+  },
+  {
+   "id": "P3-T6",
+   "phase": "P3",
+   "tache": "6",
+   "titre": "Feuille Listes : ajout, renommage en cascade, suppression",
+   "dependances": [
+    "P2-T2",
+    "P2-T3",
+    "P3-T2",
+    "P3-T3",
+    "P3-T4",
+    "P3-T5"
+   ]
+  },
+  {
+   "id": "P3-T7",
+   "phase": "P3",
+   "tache": "7",
+   "titre": "Plan de rendu à trois voies de la table Actions",
+   "dependances": [
+    "P3-T2",
+    "P3-T3",
+    "P3-T4",
+    "P3-T5"
+   ]
+  },
+  {
+   "id": "P3-T8",
+   "phase": "P3",
+   "tache": "8",
+   "titre": "Mise en page, formats et feuille Synthèse",
+   "dependances": [
+    "P3-T2",
+    "P3-T3",
+    "P3-T5",
+    "P3-T6"
+   ]
+  },
+  {
+   "id": "P3-T9",
+   "phase": "P3",
+   "tache": "9",
+   "titre": "Placement des photos",
+   "dependances": [
+    "P2-T6",
+    "P3-T4"
+   ]
+  },
+  {
+   "id": "P3-T10",
+   "phase": "P3",
+   "tache": "10",
+   "titre": "WorkbookSync : liaison, capture, rendu, cycle",
+   "dependances": [
+    "P1-T9",
+    "P3-T2",
+    "P3-T3",
+    "P3-T4",
+    "P3-T5",
+    "P3-T6",
+    "P3-T7",
+    "P3-T8",
+    "P3-T9"
+   ]
+  },
+  {
+   "id": "P3-T11",
+   "phase": "P3",
+   "tache": "11",
+   "titre": "Stockage IndexedDB persistant du complément",
+   "dependances": [
+    "P2-T1"
+   ]
+  },
+  {
+   "id": "P3-T12",
+   "phase": "P3",
+   "tache": "12",
+   "titre": "Squelette du complément : Vite, React, manifeste XML",
+   "dependances": [
+    "P2-T7",
+    "P3-T1"
+   ]
+  },
+  {
+   "id": "P3-T13",
+   "phase": "P3",
+   "tache": "13",
+   "titre": "Passerelle Office.js et événements du classeur",
+   "dependances": [
+    "P3-T1",
+    "P3-T2",
+    "P3-T6",
+    "P3-T8",
+    "P3-T9",
+    "P3-T10"
+   ]
+  },
+  {
+   "id": "P3-T14",
+   "phase": "P3",
+   "tache": "14",
+   "titre": "Services du complément : Supabase, photos, temps réel, session",
+   "dependances": [
+    "P2-T8",
+    "P2-T9",
+    "P3-T10",
+    "P3-T11",
+    "P3-T13"
+   ]
+  },
+  {
+   "id": "P3-T15",
+   "phase": "P3",
+   "tache": "15",
+   "titre": "Volet en français : connexion, liaison, état de synchro, taille des photos",
+   "dependances": [
+    "P3-T10",
+    "P3-T12",
+    "P3-T13",
+    "P3-T14"
+   ]
+  },
+  {
+   "id": "P3-RF",
+   "phase": "P3",
+   "tache": "final",
+   "titre": "Revue finale et vague de corrections du plan 3",
+   "dependances": [
+    "P3-T11",
+    "P3-T15"
+   ]
+  },
+  {
+   "id": "P3-T16",
+   "phase": "P3",
+   "tache": "16",
+   "titre": "Publication, guide d'installation et vérification dans Excel (avec l'utilisateur)",
+   "dependances": [
+    "P3-T1",
+    "P3-RF"
+   ]
+  },
+  {
+   "id": "P4",
+   "phase": "P4",
+   "tache": "plan",
+   "titre": "Plan 4 — PDF qualité cabinet d'architectes (plan détaillé à rédiger)",
+   "dependances": [
+    "P2-T8",
+    "P3-T15"
+   ]
+  },
+  {
+   "id": "P5",
+   "phase": "P5",
+   "tache": "plan",
+   "titre": "Plan 5 — iPad et finitions (plan détaillé à rédiger)",
+   "dependances": [
+    "P4"
+   ]
+  }
+ ]
+}

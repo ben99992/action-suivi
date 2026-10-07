@@ -1,0 +1,1284 @@
+{
+ "projet": "Action !",
+ "derniere_activite": "2026-10-07T22:22:26.000Z",
+ "branche": "plan-3-complement-excel",
+ "dernier_commit": {
+  "commit": "88256c7",
+  "date": "2026-10-07T22:22:26.000Z"
+ },
+ "phases": [
+  {
+   "id": "P1",
+   "titre": "Plan 1 — Fondations"
+  },
+  {
+   "id": "P2",
+   "titre": "Plan 2 — App iPhone (Expo Go)"
+  },
+  {
+   "id": "P3",
+   "titre": "Plan 3 — Complément Excel"
+  },
+  {
+   "id": "P4",
+   "titre": "Plan 4 — PDF"
+  },
+  {
+   "id": "P5",
+   "titre": "Plan 5 — iPad et finitions"
+  }
+ ],
+ "taches": [
+  {
+   "id": "P1-T1",
+   "titre": "Socle monorepo et mise à jour du cahier des charges",
+   "phase": "P1",
+   "tache": "1",
+   "statut": "fait",
+   "dependances": [],
+   "avancement": 100,
+   "date_debut": "2026-10-05T16:11:10.040Z",
+   "date_fin": "2026-10-05T17:39:23.000Z",
+   "commit": "962c406",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-T2",
+   "titre": "Types du domaine et modèles de projet",
+   "phase": "P1",
+   "tache": "2",
+   "statut": "fait",
+   "dependances": [
+    "P1-T1"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T17:40:41.958Z",
+   "date_fin": "2026-10-05T17:43:16.000Z",
+   "commit": "289ecf1",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-T3",
+   "titre": "Normalisation du texte et correspondance approchée des listes",
+   "phase": "P1",
+   "tache": "3",
+   "statut": "fait",
+   "dependances": [
+    "P1-T1"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T17:44:22.968Z",
+   "date_fin": "2026-10-05T17:45:59.000Z",
+   "commit": "2152b22",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-T4",
+   "titre": "Lecture des échéances en français",
+   "phase": "P1",
+   "tache": "4",
+   "statut": "fait",
+   "dependances": [
+    "P1-T3"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T17:47:09.638Z",
+   "date_fin": "2026-10-05T17:48:34.000Z",
+   "commit": "707692b",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-T5",
+   "titre": "Analyse de la dictée",
+   "phase": "P1",
+   "tache": "5",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2",
+    "P1-T3",
+    "P1-T4"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T17:50:00.455Z",
+   "date_fin": "2026-10-05T17:52:20.000Z",
+   "commit": "6da2609",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-T6",
+   "titre": "Budget de largeur Excel A4 portrait",
+   "phase": "P1",
+   "tache": "6",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T17:53:25.784Z",
+   "date_fin": "2026-10-05T17:54:42.000Z",
+   "commit": "fb98c07",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-T7",
+   "titre": "Schéma de base, règles d'accès et banc de test",
+   "phase": "P1",
+   "tache": "7",
+   "statut": "fait",
+   "dependances": [
+    "P1-T1"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T17:55:52.931Z",
+   "date_fin": "2026-10-05T18:03:05.000Z",
+   "commit": "9281c1d",
+   "note": "Revue sans réserve après 2 correction(s)"
+  },
+  {
+   "id": "P1-T8",
+   "titre": "Fonctions serveur apply_changes et pull_changes",
+   "phase": "P1",
+   "tache": "8",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2",
+    "P1-T7"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T18:03:59.794Z",
+   "date_fin": "2026-10-05T18:17:11.000Z",
+   "commit": "ede4c8b",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P1-T9",
+   "titre": "Moteur de synchro client (stockage local, réconciliation) et test de bout en bout",
+   "phase": "P1",
+   "tache": "9",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2",
+    "P1-T8"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T18:17:50.227Z",
+   "date_fin": "2026-10-05T18:28:38.000Z",
+   "commit": "11da268",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P1-T10",
+   "titre": "Transport Supabase, intégration continue et réveil quotidien",
+   "phase": "P1",
+   "tache": "10",
+   "statut": "fait",
+   "dependances": [
+    "P1-T8",
+    "P1-T9"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T18:29:49.209Z",
+   "date_fin": "2026-10-05T18:34:23.000Z",
+   "commit": "f67fa54",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P1-RF",
+   "titre": "Revue finale et vague de corrections du plan 1",
+   "phase": "P1",
+   "tache": "final",
+   "statut": "fait",
+   "dependances": [
+    "P1-T5",
+    "P1-T6",
+    "P1-T10"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-05T18:34:23.000Z",
+   "date_fin": "2026-10-05T19:08:29.000Z",
+   "commit": "cd8fa09",
+   "note": "Revue finale puis corrections, re-revue sans point bloquant"
+  },
+  {
+   "id": "P2-T1",
+   "titre": "Application locale des changements et suite de conformité LocalStore",
+   "phase": "P2",
+   "tache": "1",
+   "statut": "fait",
+   "dependances": [
+    "P1-T9"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:31:43.050Z",
+   "date_fin": "2026-10-06T13:36:09.000Z",
+   "commit": "dcfc5ec",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T2",
+   "titre": "Aides d'édition horodatées (nextEditTs)",
+   "phase": "P2",
+   "tache": "2",
+   "statut": "fait",
+   "dependances": [
+    "P1-T9",
+    "P2-T1"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:37:48.771Z",
+   "date_fin": "2026-10-06T13:39:17.000Z",
+   "commit": "3d034c4",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T3",
+   "titre": "Valeurs de listes : suggestions, nouvelles valeurs, statut à faire, contexte de dictée",
+   "phase": "P2",
+   "tache": "3",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2",
+    "P1-T3",
+    "P1-T5",
+    "P2-T1"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:40:18.596Z",
+   "date_fin": "2026-10-06T13:44:43.000Z",
+   "commit": "2113f5a",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T4",
+   "titre": "Aides de capture : nouvelle action et photo, dictée appliquée, champs mémorisés",
+   "phase": "P2",
+   "tache": "4",
+   "statut": "fait",
+   "dependances": [
+    "P1-T5",
+    "P1-T9",
+    "P2-T1",
+    "P2-T2"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:45:35.498Z",
+   "date_fin": "2026-10-06T13:50:31.000Z",
+   "commit": "77836da",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T5",
+   "titre": "Géométrie des annotations (coordonnées, formes, zoom)",
+   "phase": "P2",
+   "tache": "5",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:51:29.543Z",
+   "date_fin": "2026-10-06T13:53:11.000Z",
+   "commit": "8719931",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T6",
+   "titre": "Logique de la liste d'actions : sections, filtres, recherche",
+   "phase": "P2",
+   "tache": "6",
+   "statut": "fait",
+   "dependances": [
+    "P1-T3",
+    "P2-T1",
+    "P2-T3"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:54:20.444Z",
+   "date_fin": "2026-10-06T13:56:44.000Z",
+   "commit": "9d0db33",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T7",
+   "titre": "Aides d'interface en français : dates, corbeille, configuration, connexion",
+   "phase": "P2",
+   "tache": "7",
+   "statut": "fait",
+   "dependances": [
+    "P1-T4"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T13:57:35.817Z",
+   "date_fin": "2026-10-06T13:59:36.000Z",
+   "commit": "e3b08b0",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T8",
+   "titre": "Moteur de synchro : relance, envois par 50, bumpPdfEdition",
+   "phase": "P2",
+   "tache": "8",
+   "statut": "fait",
+   "dependances": [
+    "P1-T7",
+    "P1-T9",
+    "P1-T10"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T14:00:23.096Z",
+   "date_fin": "2026-10-06T14:07:26.000Z",
+   "commit": "fcee4f9",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T9",
+   "titre": "Planificateur de synchro et libellé d'état",
+   "phase": "P2",
+   "tache": "9",
+   "statut": "fait",
+   "dependances": [
+    "P1-T9",
+    "P2-T8"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T14:08:07.807Z",
+   "date_fin": "2026-10-06T14:14:32.000Z",
+   "commit": "b9d8c76",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T10",
+   "titre": "Synchro des photos : file d'envoi et téléchargements",
+   "phase": "P2",
+   "tache": "10",
+   "statut": "fait",
+   "dependances": [
+    "P1-T9",
+    "P2-T1",
+    "P2-T2"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T14:20:16.382Z",
+   "date_fin": "2026-10-06T14:31:57.000Z",
+   "commit": "c960271",
+   "note": "Revue sans réserve après 2 correction(s)"
+  },
+  {
+   "id": "P2-T11",
+   "titre": "Migration Supabase : stockage privé des photos, règles d'accès, temps réel",
+   "phase": "P2",
+   "tache": "11",
+   "statut": "fait",
+   "dependances": [
+    "P1-T7"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T14:32:32.854Z",
+   "date_fin": "2026-10-06T14:40:50.000Z",
+   "commit": "9e34456",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T12",
+   "titre": "Stockage SQLite conforme à LocalStore",
+   "phase": "P2",
+   "tache": "12",
+   "statut": "fait",
+   "dependances": [
+    "P2-T1"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T14:42:26.978Z",
+   "date_fin": "2026-10-06T14:45:39.000Z",
+   "commit": "cda1b92",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T13",
+   "titre": "SQLite : lectures des écrans, réglages, fichiers photo, purge de la corbeille",
+   "phase": "P2",
+   "tache": "13",
+   "statut": "fait",
+   "dependances": [
+    "P2-T10",
+    "P2-T12"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T14:47:45.480Z",
+   "date_fin": "2026-10-06T15:01:03.000Z",
+   "commit": "a4b8847",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T14",
+   "titre": "Squelette de l'app Expo SDK 57",
+   "phase": "P2",
+   "tache": "14",
+   "statut": "fait",
+   "dependances": [
+    "P2-T7"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T15:01:43.102Z",
+   "date_fin": "2026-10-06T15:15:26.000Z",
+   "commit": "28e9df3",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T15",
+   "titre": "Services de l'app : SQLite, Supabase, synchro, photos, temps réel",
+   "phase": "P2",
+   "tache": "15",
+   "statut": "fait",
+   "dependances": [
+    "P2-T4",
+    "P2-T7",
+    "P2-T8",
+    "P2-T9",
+    "P2-T10",
+    "P2-T12",
+    "P2-T13"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T15:17:05.832Z",
+   "date_fin": "2026-10-06T18:20:16.000Z",
+   "commit": "bc991a8",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T16",
+   "titre": "Connexion et routage au démarrage",
+   "phase": "P2",
+   "tache": "16",
+   "statut": "fait",
+   "dependances": [
+    "P2-T7",
+    "P2-T14",
+    "P2-T15"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T18:24:40.723Z",
+   "date_fin": "2026-10-06T18:28:40.000Z",
+   "commit": "1f085f8",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T17",
+   "titre": "Composants d'interface partagés",
+   "phase": "P2",
+   "tache": "17",
+   "statut": "fait",
+   "dependances": [
+    "P1-T4",
+    "P2-T7",
+    "P2-T14"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T18:29:39.578Z",
+   "date_fin": "2026-10-06T19:13:40.000Z",
+   "commit": "973747d",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T18",
+   "titre": "Photos : stockage de capture, rendu annoté, calque d'annotation",
+   "phase": "P2",
+   "tache": "18",
+   "statut": "fait",
+   "dependances": [
+    "P2-T2",
+    "P2-T4",
+    "P2-T5",
+    "P2-T15"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T19:14:55.658Z",
+   "date_fin": "2026-10-06T19:32:53.000Z",
+   "commit": "d48e506",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T19",
+   "titre": "Écran de capture (rafale, dictée analysée en direct)",
+   "phase": "P2",
+   "tache": "19",
+   "statut": "fait",
+   "dependances": [
+    "P2-T3",
+    "P2-T4",
+    "P2-T14",
+    "P2-T15",
+    "P2-T17",
+    "P2-T18"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T19:34:00.629Z",
+   "date_fin": "2026-10-06T20:03:05.000Z",
+   "commit": "74cd62a",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T20",
+   "titre": "Écran d'annotation",
+   "phase": "P2",
+   "tache": "20",
+   "statut": "fait",
+   "dependances": [
+    "P2-T5",
+    "P2-T15",
+    "P2-T17",
+    "P2-T18"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-06T20:04:28.394Z",
+   "date_fin": "2026-10-07T07:05:17.000Z",
+   "commit": "ca5a99d",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T21",
+   "titre": "Écran liste des actions",
+   "phase": "P2",
+   "tache": "21",
+   "statut": "fait",
+   "dependances": [
+    "P2-T3",
+    "P2-T6",
+    "P2-T15",
+    "P2-T17"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:06:21.694Z",
+   "date_fin": "2026-10-07T07:17:10.000Z",
+   "commit": "13b600c",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T22",
+   "titre": "Fiche action",
+   "phase": "P2",
+   "tache": "22",
+   "statut": "fait",
+   "dependances": [
+    "P2-T6",
+    "P2-T14",
+    "P2-T15",
+    "P2-T17"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:20:04.076Z",
+   "date_fin": "2026-10-07T07:26:12.000Z",
+   "commit": "290a44c",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T23",
+   "titre": "Projets : liste, changement, création en deux gestes",
+   "phase": "P2",
+   "tache": "23",
+   "statut": "fait",
+   "dependances": [
+    "P1-T2",
+    "P1-T9",
+    "P2-T14",
+    "P2-T15",
+    "P2-T17"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:29:00.743Z",
+   "date_fin": "2026-10-07T07:38:08.000Z",
+   "commit": "dcfdf56",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P2-T24",
+   "titre": "Réglages du projet et corbeille",
+   "phase": "P2",
+   "tache": "24",
+   "statut": "fait",
+   "dependances": [
+    "P1-T6",
+    "P2-T7",
+    "P2-T15",
+    "P2-T17"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:39:08.523Z",
+   "date_fin": "2026-10-07T07:46:36.000Z",
+   "commit": "e48ead8",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-RF",
+   "titre": "Revue finale et vague de corrections du plan 2",
+   "phase": "P2",
+   "tache": "final",
+   "statut": "fait",
+   "dependances": [
+    "P2-T16",
+    "P2-T19",
+    "P2-T20",
+    "P2-T21",
+    "P2-T22",
+    "P2-T23",
+    "P2-T24"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:52:43.000Z",
+   "date_fin": "2026-10-07T08:30:55.000Z",
+   "commit": "672764d",
+   "note": "Revue finale puis corrections, re-revue sans point bloquant"
+  },
+  {
+   "id": "P2-T25",
+   "titre": "Mise en service Supabase (avec l'utilisateur)",
+   "phase": "P2",
+   "tache": "25",
+   "statut": "fait",
+   "dependances": [
+    "P1-T7",
+    "P2-T11"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:49:53.975Z",
+   "date_fin": "2026-10-07T09:53:47.000Z",
+   "commit": "bfa8733",
+   "note": "Serveur en ligne (projet ibyigjqviaoaqnjjnxsp), constaté dans les décisions du plan 3 ; partie code : commits e48ead8..12d061a"
+  },
+  {
+   "id": "P2-X1",
+   "titre": "Connexion par e-mail et mot de passe (au lieu du code)",
+   "phase": "P2",
+   "tache": "hors plan",
+   "statut": "fait",
+   "dependances": [
+    "P2-T16",
+    "P2-T25"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T09:53:47.293Z",
+   "date_fin": "2026-10-07T10:01:30.000Z",
+   "commit": "e0fe339",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-X2",
+   "titre": "Bouton OK unique sous la photo et menu projet",
+   "phase": "P2",
+   "tache": "hors plan",
+   "statut": "fait",
+   "dependances": [
+    "P2-T19",
+    "P2-T23"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T12:04:46.113Z",
+   "date_fin": "2026-10-07T12:10:40.000Z",
+   "commit": "44ad717",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P2-T26",
+   "titre": "Publication sur Expo Go et vérification iPhone (avec l'utilisateur)",
+   "phase": "P2",
+   "tache": "26",
+   "statut": "fait",
+   "dependances": [
+    "P2-RF",
+    "P2-T25"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T07:49:54.606Z",
+   "date_fin": "2026-10-07T11:50:37.000Z",
+   "commit": "28011f0",
+   "note": "App publiée (EAS Update), constaté dans les décisions du plan 3 ; retours iPhone corrigés (b4ae4f9)"
+  },
+  {
+   "id": "P3-T1",
+   "titre": "Compte GitHub et complément d'essai sur GitHub Pages (avec l'utilisateur)",
+   "phase": "P3",
+   "tache": "1",
+   "statut": "bloqué",
+   "dependances": [
+    "P2-T25"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": "Attend l'utilisateur : compte GitHub et GitHub CLI (étape 1), puis essai dans Excel"
+  },
+  {
+   "id": "P3-T2",
+   "titre": "Paquet excel-sync : socle et unités (cm, colonnes, dates Excel)",
+   "phase": "P3",
+   "tache": "2",
+   "statut": "fait",
+   "dependances": [],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:06:18.492Z",
+   "date_fin": "2026-10-07T15:13:23.000Z",
+   "commit": "3827d11",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P3-T3",
+   "titre": "Modèle de colonnes et projection des lignes",
+   "phase": "P3",
+   "tache": "3",
+   "statut": "fait",
+   "dependances": [
+    "P1-T6",
+    "P2-T3",
+    "P2-T7",
+    "P3-T2"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:15:04.585Z",
+   "date_fin": "2026-10-07T15:23:18.000Z",
+   "commit": "142b24d",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P3-T4",
+   "titre": "Instantané de dernière synchro",
+   "phase": "P3",
+   "tache": "4",
+   "statut": "fait",
+   "dependances": [
+    "P3-T3"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:23:47.786Z",
+   "date_fin": "2026-10-07T15:26:16.000Z",
+   "commit": "fa311b0",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P3-T5",
+   "titre": "Capture : écarts classeur ↔ instantané en changements",
+   "phase": "P3",
+   "tache": "5",
+   "statut": "fait",
+   "dependances": [
+    "P2-T2",
+    "P2-T3",
+    "P2-T4",
+    "P3-T2",
+    "P3-T3",
+    "P3-T4"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:27:48.002Z",
+   "date_fin": "2026-10-07T15:30:41.000Z",
+   "commit": "8bf87d6",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P3-T6",
+   "titre": "Feuille Listes : ajout, renommage en cascade, suppression",
+   "phase": "P3",
+   "tache": "6",
+   "statut": "fait",
+   "dependances": [
+    "P2-T2",
+    "P2-T3",
+    "P3-T2",
+    "P3-T3",
+    "P3-T4",
+    "P3-T5"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:34:31.327Z",
+   "date_fin": "2026-10-07T15:37:05.000Z",
+   "commit": "577890c",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P3-T7",
+   "titre": "Plan de rendu à trois voies de la table Actions",
+   "phase": "P3",
+   "tache": "7",
+   "statut": "fait",
+   "dependances": [
+    "P3-T2",
+    "P3-T3",
+    "P3-T4",
+    "P3-T5"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:38:19.319Z",
+   "date_fin": "2026-10-07T15:46:25.000Z",
+   "commit": "e078b1f",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P3-T8",
+   "titre": "Mise en page, formats et feuille Synthèse",
+   "phase": "P3",
+   "tache": "8",
+   "statut": "fait",
+   "dependances": [
+    "P3-T2",
+    "P3-T3",
+    "P3-T5",
+    "P3-T6"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:47:12.557Z",
+   "date_fin": "2026-10-07T15:50:25.000Z",
+   "commit": "eba265e",
+   "note": "Revue sans réserve"
+  },
+  {
+   "id": "P3-T9",
+   "titre": "Placement des photos",
+   "phase": "P3",
+   "tache": "9",
+   "statut": "fait",
+   "dependances": [
+    "P2-T6",
+    "P3-T4"
+   ],
+   "avancement": 100,
+   "date_debut": "2026-10-07T15:52:10.926Z",
+   "date_fin": "2026-10-07T16:00:32.000Z",
+   "commit": "90501b5",
+   "note": "Revue sans réserve après 1 correction(s)"
+  },
+  {
+   "id": "P3-T10",
+   "titre": "WorkbookSync : liaison, capture, rendu, cycle",
+   "phase": "P3",
+   "tache": "10",
+   "statut": "en cours",
+   "dependances": [
+    "P1-T9",
+    "P3-T2",
+    "P3-T3",
+    "P3-T4",
+    "P3-T5",
+    "P3-T6",
+    "P3-T7",
+    "P3-T8",
+    "P3-T9"
+   ],
+   "avancement": 75,
+   "date_debut": "2026-10-07T16:01:09.627Z",
+   "date_fin": null,
+   "commit": "88256c7",
+   "note": "En revue"
+  },
+  {
+   "id": "P3-T11",
+   "titre": "Stockage IndexedDB persistant du complément",
+   "phase": "P3",
+   "tache": "11",
+   "statut": "à faire",
+   "dependances": [
+    "P2-T1"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P3-T12",
+   "titre": "Squelette du complément : Vite, React, manifeste XML",
+   "phase": "P3",
+   "tache": "12",
+   "statut": "à faire",
+   "dependances": [
+    "P2-T7",
+    "P3-T1"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P3-T13",
+   "titre": "Passerelle Office.js et événements du classeur",
+   "phase": "P3",
+   "tache": "13",
+   "statut": "à faire",
+   "dependances": [
+    "P3-T1",
+    "P3-T2",
+    "P3-T6",
+    "P3-T8",
+    "P3-T9",
+    "P3-T10"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P3-T14",
+   "titre": "Services du complément : Supabase, photos, temps réel, session",
+   "phase": "P3",
+   "tache": "14",
+   "statut": "à faire",
+   "dependances": [
+    "P2-T8",
+    "P2-T9",
+    "P3-T10",
+    "P3-T11",
+    "P3-T13"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P3-T15",
+   "titre": "Volet en français : connexion, liaison, état de synchro, taille des photos",
+   "phase": "P3",
+   "tache": "15",
+   "statut": "à faire",
+   "dependances": [
+    "P3-T10",
+    "P3-T12",
+    "P3-T13",
+    "P3-T14"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P3-RF",
+   "titre": "Revue finale et vague de corrections du plan 3",
+   "phase": "P3",
+   "tache": "final",
+   "statut": "à faire",
+   "dependances": [
+    "P3-T11",
+    "P3-T15"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P3-T16",
+   "titre": "Publication, guide d'installation et vérification dans Excel (avec l'utilisateur)",
+   "phase": "P3",
+   "tache": "16",
+   "statut": "à faire",
+   "dependances": [
+    "P3-T1",
+    "P3-RF"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P4",
+   "titre": "Plan 4 — PDF qualité cabinet d'architectes (plan détaillé à rédiger)",
+   "phase": "P4",
+   "tache": "plan",
+   "statut": "à faire",
+   "dependances": [
+    "P2-T8",
+    "P3-T15"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  },
+  {
+   "id": "P5",
+   "titre": "Plan 5 — iPad et finitions (plan détaillé à rédiger)",
+   "phase": "P5",
+   "tache": "plan",
+   "statut": "à faire",
+   "dependances": [
+    "P4"
+   ],
+   "avancement": 0,
+   "date_debut": null,
+   "date_fin": null,
+   "commit": null,
+   "note": ""
+  }
+ ],
+ "evenements": [
+  {
+   "t": "2026-10-07T22:09:39.628Z",
+   "id": "P3-T10",
+   "type": "jalon",
+   "texte": "Implémentation livrée"
+  },
+  {
+   "t": "2026-10-07T16:01:09.627Z",
+   "id": "P3-T10",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T16:00:32.000Z",
+   "id": "P3-T9",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:52:10.926Z",
+   "id": "P3-T9",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:50:25.000Z",
+   "id": "P3-T8",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:47:12.557Z",
+   "id": "P3-T8",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:46:25.000Z",
+   "id": "P3-T7",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:38:19.319Z",
+   "id": "P3-T7",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:37:05.000Z",
+   "id": "P3-T6",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:34:31.327Z",
+   "id": "P3-T6",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:30:41.000Z",
+   "id": "P3-T5",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:27:48.002Z",
+   "id": "P3-T5",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:26:16.000Z",
+   "id": "P3-T4",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:23:47.786Z",
+   "id": "P3-T4",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:23:18.000Z",
+   "id": "P3-T3",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:15:04.585Z",
+   "id": "P3-T3",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:13:23.000Z",
+   "id": "P3-T2",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T15:06:18.492Z",
+   "id": "P3-T2",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T15:06:00.000Z",
+   "id": "P3-T1",
+   "type": "bloque",
+   "texte": "Bloquée"
+  },
+  {
+   "t": "2026-10-07T12:10:40.000Z",
+   "id": "P2-X2",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T12:04:46.113Z",
+   "id": "P2-X2",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T11:50:37.000Z",
+   "id": "P2-T26",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T10:01:30.000Z",
+   "id": "P2-X1",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T09:53:47.293Z",
+   "id": "P2-X1",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T09:53:47.000Z",
+   "id": "P2-T25",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T08:30:55.000Z",
+   "id": "P2-RF",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T07:52:43.000Z",
+   "id": "P2-RF",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:49:54.606Z",
+   "id": "P2-T26",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:49:53.975Z",
+   "id": "P2-T25",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:46:36.000Z",
+   "id": "P2-T24",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T07:39:08.523Z",
+   "id": "P2-T24",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:38:08.000Z",
+   "id": "P2-T23",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T07:29:00.743Z",
+   "id": "P2-T23",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:26:12.000Z",
+   "id": "P2-T22",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T07:20:04.076Z",
+   "id": "P2-T22",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:17:10.000Z",
+   "id": "P2-T21",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-07T07:06:21.694Z",
+   "id": "P2-T21",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-07T07:05:17.000Z",
+   "id": "P2-T20",
+   "type": "fait",
+   "texte": "Terminée"
+  },
+  {
+   "t": "2026-10-06T20:04:28.394Z",
+   "id": "P2-T20",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-06T20:03:05.000Z",
+   "id": "P2-T19",
+   "type": "fait",
+   "texte": "Terminée"
+  }
+ ],
+ "reference": {
+  "fige_le": "2026-10-07T22:15:25.262Z",
+  "methode": "Cadence moyenne observée depuis le début du projet (pauses et attentes comprises), tâches restantes enchaînées dans l'ordre du plan, celles qui attendent l'utilisateur après les autres. Figée une fois pour toutes. Plans 4 et 5 exclus (pas encore de plan détaillé).",
+  "minutes_par_tache": 60,
+  "echantillon": 48,
+  "fins_prevues": {
+   "P3-T10": "2026-10-07T22:30:21.938Z",
+   "P3-T11": "2026-10-07T23:30:08.646Z",
+   "P3-T1": "2026-10-08T00:29:55.353Z",
+   "P3-T12": "2026-10-08T01:29:42.061Z",
+   "P3-T13": "2026-10-08T02:29:28.768Z",
+   "P3-T14": "2026-10-08T03:29:15.476Z",
+   "P3-T15": "2026-10-08T04:29:02.183Z",
+   "P3-RF": "2026-10-08T05:28:48.891Z",
+   "P3-T16": "2026-10-08T06:28:35.598Z"
+  }
+ },
+ "genere_le": "2026-10-07T22:22:51.078Z"
+}
