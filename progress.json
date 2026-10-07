@@ -1,6 +1,6 @@
 {
  "projet": "Action !",
- "derniere_activite": "2026-10-07T22:23:11.049Z",
+ "derniere_activite": "2026-10-07T22:27:41.894Z",
  "branche": "plan-3-complement-excel",
  "dernier_commit": {
   "commit": "88256c7",
@@ -863,11 +863,11 @@
     "P3-T8",
     "P3-T9"
    ],
-   "avancement": 75,
+   "avancement": 80,
    "date_debut": "2026-10-07T16:01:09.627Z",
    "date_fin": null,
    "commit": "88256c7",
-   "note": "En revue"
+   "note": "Correction n° 1 faite, nouvelle revue"
   },
   {
    "id": "P3-T11",
@@ -1280,5 +1280,5 @@
    "P3-T16": "2026-10-08T06:28:35.598Z"
   }
  },
- "genere_le": "2026-10-07T22:25:15.458Z"
+ "genere_le": "2026-10-07T22:28:08.248Z"
 }
