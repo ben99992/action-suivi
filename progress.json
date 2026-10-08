@@ -1,10 +1,10 @@
 {
  "projet": "Action !",
- "derniere_activite": "2026-10-08T06:57:38.257Z",
+ "derniere_activite": "2026-10-08T07:01:50.414Z",
  "branche": "plan-3-complement-excel",
  "dernier_commit": {
-  "commit": "a6575d1",
-  "date": "2026-10-08T06:51:55.000Z"
+  "commit": "c09524c",
+  "date": "2026-10-08T07:01:32.000Z"
  },
  "phases": [
   {
@@ -702,11 +702,11 @@
    "dependances": [
     "P2-T25"
    ],
-   "avancement": 15,
+   "avancement": 60,
    "date_debut": "2026-10-08T06:54:18.670Z",
    "date_fin": null,
-   "commit": null,
-   "note": "Implémentation en cours"
+   "commit": "c09524c",
+   "note": "Implémentation livrée, revue à venir"
   },
   {
    "id": "P3-T2",
@@ -1023,6 +1023,12 @@
  ],
  "evenements": [
   {
+   "t": "2026-10-08T07:01:50.414Z",
+   "id": "P3-T1",
+   "type": "jalon",
+   "texte": "Implémentation livrée"
+  },
+  {
    "t": "2026-10-08T06:54:18.670Z",
    "id": "P3-T1",
    "type": "debut",
@@ -1255,12 +1261,6 @@
    "id": "P2-T21",
    "type": "debut",
    "texte": "Commencée"
-  },
-  {
-   "t": "2026-10-07T07:05:17.000Z",
-   "id": "P2-T20",
-   "type": "fait",
-   "texte": "Terminée"
   }
  ],
  "reference": {
@@ -1280,5 +1280,5 @@
    "P3-T16": "2026-10-08T06:28:35.598Z"
   }
  },
- "genere_le": "2026-10-08T06:58:07.950Z"
+ "genere_le": "2026-10-08T07:02:06.061Z"
 }
