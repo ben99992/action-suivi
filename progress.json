@@ -1,6 +1,6 @@
 {
  "projet": "Action !",
- "derniere_activite": "2026-10-08T06:54:03.030Z",
+ "derniere_activite": "2026-10-08T06:56:06.123Z",
  "branche": "plan-3-complement-excel",
  "dernier_commit": {
   "commit": "a6575d1",
@@ -698,15 +698,15 @@
    "titre": "Compte GitHub et complément d'essai sur GitHub Pages (avec l'utilisateur)",
    "phase": "P3",
    "tache": "1",
-   "statut": "bloqué",
+   "statut": "en cours",
    "dependances": [
     "P2-T25"
    ],
-   "avancement": 0,
-   "date_debut": null,
+   "avancement": 15,
+   "date_debut": "2026-10-08T06:54:18.670Z",
    "date_fin": null,
    "commit": null,
-   "note": "Attend l'utilisateur : compte GitHub et GitHub CLI (étape 1), puis essai dans Excel"
+   "note": "Implémentation en cours"
   },
   {
    "id": "P3-T2",
@@ -874,15 +874,15 @@
    "titre": "Stockage IndexedDB persistant du complément",
    "phase": "P3",
    "tache": "11",
-   "statut": "en cours",
+   "statut": "fait",
    "dependances": [
     "P2-T1"
    ],
-   "avancement": 75,
+   "avancement": 100,
    "date_debut": "2026-10-08T06:46:49.623Z",
-   "date_fin": null,
+   "date_fin": "2026-10-08T06:51:55.000Z",
    "commit": "a6575d1",
-   "note": "En revue"
+   "note": "Revue sans réserve"
   },
   {
    "id": "P3-T12",
@@ -1023,10 +1023,16 @@
  ],
  "evenements": [
   {
-   "t": "2026-10-08T06:52:03.268Z",
+   "t": "2026-10-08T06:54:18.670Z",
+   "id": "P3-T1",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-08T06:51:55.000Z",
    "id": "P3-T11",
-   "type": "jalon",
-   "texte": "Implémentation livrée"
+   "type": "fait",
+   "texte": "Terminée"
   },
   {
    "t": "2026-10-08T06:46:49.623Z",
@@ -1141,12 +1147,6 @@
    "id": "P3-T2",
    "type": "debut",
    "texte": "Commencée"
-  },
-  {
-   "t": "2026-10-07T15:06:00.000Z",
-   "id": "P3-T1",
-   "type": "bloque",
-   "texte": "Bloquée"
   },
   {
    "t": "2026-10-07T12:10:40.000Z",
@@ -1280,5 +1280,5 @@
    "P3-T16": "2026-10-08T06:28:35.598Z"
   }
  },
- "genere_le": "2026-10-08T06:54:06.552Z"
+ "genere_le": "2026-10-08T06:56:07.032Z"
 }
