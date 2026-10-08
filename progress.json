@@ -1,6 +1,6 @@
 {
  "projet": "Action !",
- "derniere_activite": "2026-10-08T06:42:39.384Z",
+ "derniere_activite": "2026-10-08T06:47:57.746Z",
  "branche": "plan-3-complement-excel",
  "dernier_commit": {
   "commit": "edf9880",
@@ -851,7 +851,7 @@
    "titre": "WorkbookSync : liaison, capture, rendu, cycle",
    "phase": "P3",
    "tache": "10",
-   "statut": "en cours",
+   "statut": "fait",
    "dependances": [
     "P1-T9",
     "P3-T2",
@@ -863,26 +863,26 @@
     "P3-T8",
     "P3-T9"
    ],
-   "avancement": 80,
+   "avancement": 100,
    "date_debut": "2026-10-07T16:01:09.627Z",
-   "date_fin": null,
+   "date_fin": "2026-10-08T06:41:59.000Z",
    "commit": "edf9880",
-   "note": "Correction n° 1 faite, nouvelle revue"
+   "note": "Revue sans réserve après 2 correction(s)"
   },
   {
    "id": "P3-T11",
    "titre": "Stockage IndexedDB persistant du complément",
    "phase": "P3",
    "tache": "11",
-   "statut": "à faire",
+   "statut": "en cours",
    "dependances": [
     "P2-T1"
    ],
-   "avancement": 0,
-   "date_debut": null,
+   "avancement": 15,
+   "date_debut": "2026-10-08T06:46:49.623Z",
    "date_fin": null,
    "commit": null,
-   "note": ""
+   "note": "Implémentation en cours"
   },
   {
    "id": "P3-T12",
@@ -1023,10 +1023,16 @@
  ],
  "evenements": [
   {
-   "t": "2026-10-08T06:42:20.946Z",
+   "t": "2026-10-08T06:46:49.623Z",
+   "id": "P3-T11",
+   "type": "debut",
+   "texte": "Commencée"
+  },
+  {
+   "t": "2026-10-08T06:41:59.000Z",
    "id": "P3-T10",
-   "type": "jalon",
-   "texte": "Implémentation livrée"
+   "type": "fait",
+   "texte": "Terminée"
   },
   {
    "t": "2026-10-07T16:01:09.627Z",
@@ -1255,12 +1261,6 @@
    "id": "P2-T20",
    "type": "debut",
    "texte": "Commencée"
-  },
-  {
-   "t": "2026-10-06T20:03:05.000Z",
-   "id": "P2-T19",
-   "type": "fait",
-   "texte": "Terminée"
   }
  ],
  "reference": {
@@ -1280,5 +1280,5 @@
    "P3-T16": "2026-10-08T06:28:35.598Z"
   }
  },
- "genere_le": "2026-10-08T06:44:06.608Z"
+ "genere_le": "2026-10-08T06:48:06.790Z"
 }
